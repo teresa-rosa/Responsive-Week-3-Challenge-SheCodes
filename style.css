@@ -85,3 +85,23 @@ p {
     box-shadow: var(--box-shadow);
     color: white;
 }
+
+@media (max-width: 600px) {
+    h2,
+    p {
+        text-align: center;
+    }
+    .app-link {
+        display: block;
+        text-align: center;
+        margin: 0 35px;
+    }
+    .home-images {
+        display: none;
+    }
+    .heading-about-me,
+    .contact-me {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+}
